@@ -1032,6 +1032,10 @@
   },
   {
     "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|NBDTLB>io"
+  },
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
     "target":"~RocketSystem|LSU>will_fire_load_incoming_0_will_fire"
   },
   {
