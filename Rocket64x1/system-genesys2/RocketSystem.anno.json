@@ -1036,6 +1036,14 @@
   },
   {
     "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|PMPChecker_1>io.ee"
+  },
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|NBDTLB>ee_array[0]"
+  },
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
     "target":"~RocketSystem|LSU>will_fire_load_incoming_0_will_fire"
   },
   {
@@ -1081,6 +1089,10 @@
   {
     "class":"firrtl.transforms.DontTouchAnnotation",
     "target":"~RocketSystem|LSU>will_fire_store_commit_0_will_fire"
+  },
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|NBDTLB>io.resp[0].ee"
   },
   {
     "class":"freechips.rocketchip.util.SRAMAnnotation",
