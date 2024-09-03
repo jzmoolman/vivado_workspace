@@ -1091,10 +1091,6 @@
     "target":"~RocketSystem|LSU>will_fire_store_commit_0_will_fire"
   },
   {
-    "class":"firrtl.transforms.DontTouchAnnotation",
-    "target":"~RocketSystem|NBDTLB>io.resp[0].ee"
-  },
-  {
     "class":"freechips.rocketchip.util.SRAMAnnotation",
     "target":"RocketSystem.PTW.l2_tlb_ram",
     "address_width":9,
