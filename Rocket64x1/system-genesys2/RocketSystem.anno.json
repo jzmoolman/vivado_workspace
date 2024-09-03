@@ -505,6 +505,14 @@
     "target":"RocketSystem.TLWidthWidget_10"
   },
   {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|BoomMSHR>io.mem_acquire.bits.ee"
+  },
+  {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|BoomMSHR_1>io.mem_acquire.bits.ee"
+  },
+  {
     "class":"freechips.rocketchip.util.SRAMAnnotation",
     "target":"RocketSystem.BoomDuplicatedDataArray.array_0_0",
     "address_width":9,
