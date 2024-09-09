@@ -553,6 +553,10 @@
     "write_mask_granularity":64
   },
   {
+    "class":"firrtl.transforms.DontTouchAnnotation",
+    "target":"~RocketSystem|BoomMSHRFile>io.mem_acquire.bits.ee"
+  },
+  {
     "class":"freechips.rocketchip.util.SRAMAnnotation",
     "target":"RocketSystem.ICache.dataArrayWay_0",
     "address_width":9,
